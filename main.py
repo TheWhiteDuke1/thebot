@@ -7,7 +7,7 @@ import requests
 import json
 
 # Telegram bot token
-API_TOKEN = "___TELEGRAM_API_TOKEN___"
+API_TOKEN = "6498713244:AAHZ6zXQ9BB4y7udDKJNf9jt9OJH7GP2QBc"
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -43,7 +43,7 @@ async def text(message: types.Message):
         # RapidAPI necessary host header
         "X-RapidAPI-Host": "dimondevosint.p.rapidapi.com",
         # API key that you can get by subscribing to the API
-        "X-RapidAPI-Key": "___RAPIDAPI_API_KEY___"
+        "X-RapidAPI-Key": "bbeb5d93ffmshd2acabb1e0b5100p1752f0jsn5f229f57525c"
     }
 
     # Send the request with all the parameters and print the result for debugging
@@ -61,10 +61,6 @@ async def text(message: types.Message):
                            📱 Оператор: {data['operator']}
                            📓 Объявления: {data['obyavleniya']}
 
-                           @dimondevchat
-                           
-                           Код бота: https://github.com/SegYT/glazboga/
-                           """)
 
 
 # Main loop
