@@ -1,9 +1,9 @@
 # thebot
 Он устанавливается очень просто:
 
-git clone https://github.com/SegYT/glazboga
+git clone https://github.com/TheWhiteDuke1/thebot.git
 
-cd glazboga
+cd thebot
 
 python3 -m pip install -r requirements.txt
 
