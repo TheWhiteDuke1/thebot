@@ -5,7 +5,7 @@ git clone https://github.com/SegYT/glazboga
 
 cd glazboga
 
-pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 
 Теперь запускаем скрипт:
 
