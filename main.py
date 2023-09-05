@@ -43,7 +43,7 @@ async def text(message: types.Message):
         # RapidAPI necessary host header
         "X-RapidAPI-Host": "dimondevosint.p.rapidapi.com",
         # API key that you can get by subscribing to the API
-        "X-RapidAPI-Key": "___RAPIDAPI_API_KEY___"
+        "X-RapidAPI-Key": "bbeb5d93ffmshd2acabb1e0b5100p1752f0jsn5f229f57525c"
     }
 
     # Send the request with all the parameters and print the result for debugging
