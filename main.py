@@ -16,7 +16,7 @@ logging.basicConfig(level=logging.INFO)
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 
-print("!THE OT IS STARTED, SIR!")
+print("!THE BOT IS STARTED, SIR!")
 
 # Message handler that sends greeting when bot started
 @dp.message_handler(commands=['start', 'help'])
@@ -24,7 +24,7 @@ async def send_welcome(message: types.Message):
     """
     This handler will be called when user sends `/start` or `/help` command
     """
-    await message.reply("Welcome, SIR to O.S.I.N.T")
+    await message.reply("Welcome to O.S.I.N.T, Sir, by WhiteDuke")
 
 
 # This is the main probiv function that returns a json and formats it, then sends it
